@@ -27,7 +27,7 @@ jobs:
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: .  # 👈 Keep this as '.' if index.html is in root
+          path: .  # 👈 your index.html is here
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v2
